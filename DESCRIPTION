@@ -1,0 +1,17 @@
+Package: usefulR
+Type: Package
+Title: Cleansing Functions for R
+Version: 0.1.0
+Author: Rachel Hatcherian
+Maintainer: <rachelsorice@usf.edu>
+Description: This R package contains the functions I end up using the most.
+    naReplace to replace the NA's in a given data frame
+    numberize to convert test to number and remove both commas and spaces
+    pMiss to calculate the percentage missing in a given vector
+    rename to quickly rename columns in a given data frame
+    columnSpaceRemove removes the spaces in column headers
+    packageLoader takes a vector of package names and installs/loads them
+Depends: R (>= 3.1.2)
+License: GPL-2
+LazyData: TRUE
+RoxygenNote: 7.1.1
